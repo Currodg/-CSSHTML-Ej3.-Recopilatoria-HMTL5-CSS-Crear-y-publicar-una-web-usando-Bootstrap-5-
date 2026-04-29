@@ -10,7 +10,7 @@ link2.href = 'favicon.ico';
 link2.type = 'image/x-icon';
 
 // Añadirlos al <head> del documento
-document.getElementsByTagName('head')[0].appendChild(link1);
-document.getElementsByTagName('head')[0].appendChild(link2);
+document.querySelector("head").appendChild(link1);
+document.querySelector("head").appendChild(link2);
 
 console.log("Favicon añadido mediante JS");
